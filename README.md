@@ -8,7 +8,7 @@ The script makes calls to [datamuse api](https://www.datamuse.com/api/). For exa
 pass `https://api.datamuse.com/words?sp=t??k` to the api, the api will return "*all the words that start 
 with t, end in k, and have two letters in between*". 
 
-## Couple of Notes
+## Some Notes
 - [Here](https://www.youtube.com/watch?v=sE9khvX4AMM) is a sample video of how it works.
 - The algorithm starts with a bunch of precusrsor suggestions. I just picked whatever word that came to my mind. One doesn't have to follow them. You can simply put whatever word you see as better fit. 
 - Once you make a suggestion, you then have to give a feedback to the script on how well the suggestions are by specifying something like `iicai`. 
