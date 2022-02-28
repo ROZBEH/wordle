@@ -12,8 +12,8 @@ with t, end in k, and have two letters in between*".
 - The algorithm starts with a bunch of precusrsor suggestions. I just picked whatever word that came to my mind. One doesn't have to follow them. You can simply put whatever word you see as better fit. 
 - Once you make a suggestion, you then have to give a feedback to the script on how well the suggestions are by specifying something like `iicai`. 
 `c:correct letter, correct spot`
-`a:Correct letter, wrong spot`
-`i:Wrong letter`
+`a:correct letter, wrong spot`
+`i:wrong letter`
 - After the feedback, the algorithm check which of the chars were correct and which ones are at the wrong place.
 Let's say the suggestion was `tesla` but the actual word is `their` so the feedback should be `caiia` which you 
 can infer based on the colors in the game. Once done, the algorithm then calls the api with the following query.
